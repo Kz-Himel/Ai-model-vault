@@ -1,16 +1,66 @@
-# React + Vite
+## Ai-Model-Vault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Overview
+**Ai Model Vault** is a secure and interactive web application built with **React**, **Tailwind CSS**, **DaisyUI**, and enhanced with **Lucide React** icons and **React Toastify** notifications. It fetches dynamic content from APIs and provides a clean, responsive, and modern interface for users to manage data efficiently.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---  
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://vault-demo.netlify.app
 
-## Expanding the ESLint configuration
+---  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Secure and interactive UI  
+- Dynamic data fetching using APIs  
+- Responsive layout for all devices  
+- Modern UI components using DaisyUI  
+- Icons with Lucide React  
+- Toast notifications using React Toastify  
+- Smooth navigation and state management  
+
+---
+
+## Technologies Used
+- React.js – Frontend framework  
+- JavaScript (ES6+) – Core logic  
+- Tailwind CSS – Styling  
+- DaisyUI – UI components  
+- API – Dynamic content  
+- Lucide React – Icons  
+- React Toastify – Notifications  
+
+---
+
+## Dependencies
+- `react`  
+- `react-dom`  
+- `tailwindcss`  
+- `daisyui`  
+- `lucide-react`  
+- `react-toastify`  
+- `axios`
+
+---
+
+## Author
+**Khayruzzaman Himel**  
+📧 Email: khayruzzaman.himel@example.com  
+
+---
+
+## Getting Started (Local Setup)
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/vault.git
+   
+   cd ai-model-vault
+
+    npm install
+
+    npm run dev
